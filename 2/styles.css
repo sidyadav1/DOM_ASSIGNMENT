@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1130px;
+  margin: 20px 0px;
+}
+
+.user_card {
+  border: 2px solid purple;
+  border-radius: 1rem;
+  padding: 20px;
+  width: fit-content;
+  margin: 0px auto;
+  cursor: pointer;
+}
+
+.user_about {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.user_card_profile,
+.user_card_details {
+  margin: 0px 10px;
+}
+
+.user_card_profile > img {
+  width: 150px;
+  margin: 0px auto;
+}
+
+.user_card_detail {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.btn_follow {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: rgb(255, 121, 72);
+  color: #fff;
+  border: 2px solid orangered;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn_follow:hover {
+  background-color: rgrgb(255, 99, 42);
+}
+
+.follow_button_color_change {
+  background-color: lightcyan;
+  color: #000;
+}
+
+.follow_button_color_change:hover {
+  background-color: rgb(177, 248, 248);
+}
+
+.user_details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.details {
+  margin-bottom: 15px;
+}
+
+.user_detail_label {
+  font-size: 10px;
+}
+
+.user_detail {
+  font-size: 20px;
+}
+
+.company_detals {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: cyan;
+  border: 2px solid blue;
+  border-radius: 15px;
+}
+
+.company_detals_heading {
+  margin-bottom: 10px;
+}
+
+.company_catch_phrase {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.company_catch_phrase {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+
+@media screen and (max-width: 650px) {
+  .user_card_profile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .user_about {
+    flex-direction: column;
+  }
+}

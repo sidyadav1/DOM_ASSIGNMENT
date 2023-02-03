@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1130px;
+}
+
+.input_area {
+  display: flex;
+  width: 100%;
+  padding: 25px 15px;
+}
+
+.user_input {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 8px;
+  border: 2px solid purple;
+  margin: 0px 5px;
+  background-color: lightskyblue;
+}
+
+.add_to_list {
+  width: 20%;
+  margin: 0px 5px;
+  background-color: purple;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #000;
+  padding: 10px 20px;
+}
+
+.add_to_list:hover {
+  cursor: pointer;
+}
+
+.list_area {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 25px 15px;
+}
+
+.list_area_heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.list {
+  width: 100%;
+  list-style-type: decimal;
+  padding: 0px 10px;
+}
+
+.list_item {
+  margin-bottom: 10px;
+  background-color: rgb(247, 91, 34);
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  color: #fff;
+  animation: insert_element 0.5s ease-in-out;
+}
+
+@keyframes insert_element {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
+  }
+}
+
+.list_item:hover {
+  cursor: pointer;
+}
+
+.list_item::marker {
+  color: #000;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .input_area {
+    flex-direction: column;
+  }
+
+  .user_input {
+    margin-bottom: 10px;
+  }
+
+  .add_to_list {
+    width: 100%;
+  }
+}

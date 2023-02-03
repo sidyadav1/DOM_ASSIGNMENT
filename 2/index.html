@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Question 2</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="container">
+        <div
+          class="user_card"
+          id="user_card"
+          onclick="handleUserCardClick(event)"
+        >
+          <div class="user_about">
+            <div class="user_card_profile">
+              <img src="/assets/user_img.webp" alt="" />
+            </div>
+            <div class="user_card_details">
+              <p class="user_card_detail">Name: Leanne Graham</p>
+              <p class="user_card_detail">Email: Sincere@april.biz</p>
+              <p class="user_card_detail">Phone: 1-770-736-8031 x56442</p>
+            </div>
+          </div>
+          <button
+            class="btn_follow"
+            id="follow_button"
+            onclick="handleFollowButtonClick(event)"
+          >
+            Click to follow
+          </button>
+        </div>
+      </section>
+      <secton class="container">
+        <div class="user_details" id="user_profile">
+          <div class="company_detals">
+            <h2 class="company_detals_heading">Company</h2>
+            <div class="details">
+              <label for="user_company_name" class="user_detail_label"
+                >Company Name:
+              </label>
+              <p id="user_company_name" class="user_detail">---------</p>
+            </div>
+            <p class="company_catch_phrase" id="company_catch_phrase"></p>
+          </div>
+          <div class="details">
+            <label for="user_name" class="user_detail_label">Name: </label>
+            <p id="user_name" class="user_detail">---------</p>
+          </div>
+          <div class="details">
+            <label for="user_username" class="user_detail_label">
+              Username
+            </label>
+            <p id="user_username" class="user_detail">---------</p>
+          </div>
+          <div class="details">
+            <label for="user_email" class="user_detail_label">Email: </label>
+            <p id="user_email" class="user_detail">---------</p>
+          </div>
+          <div class="details">
+            <label for="user_phone" class="user_detail_label">Phone: </label>
+            <p id="user_phone" class="user_detail">---------</p>
+          </div>
+          <div class="details">
+            <label for="user_website" class="user_detail_label"
+              >Website:
+            </label>
+            <p id="user_website" class="user_detail">---------</p>
+          </div>
+          <div class="details">
+            <label for="user_address" class="user_detail_label"
+              >Address:
+            </label>
+            <p id="user_address" class="user_detail">---------</p>
+          </div>
+        </div>
+      </secton>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
