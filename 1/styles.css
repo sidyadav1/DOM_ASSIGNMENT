@@ -94,6 +94,19 @@ body {
   margin-right: 20px;
 }
 
+.remove_list_item {
+  animation: remove_element 0.5s ease-in-out;
+}
+
+@keyframes remove_element {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 0;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .input_area {
     flex-direction: column;

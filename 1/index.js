@@ -3,7 +3,7 @@ const inputField = document.getElementById("user_input");
 const list = document.getElementById("list");
 
 function addItemToList() {
-  let inputValue = inputField.value;
+  let inputValue = inputField.value.trim();
   if (!inputValue) {
     return;
   }
@@ -28,5 +28,6 @@ inputField.addEventListener("keypress", function (event) {
 
 function removeItem(elementId) {
   const listItem = document.getElementById(elementId);
-  listItem.parentElement.removeChild(listItem);
+  listItem.classList.toggle("remove_list_item");
+  setTimeout(() => listItem.parentElement.removeChild(listItem), 500);
 }
