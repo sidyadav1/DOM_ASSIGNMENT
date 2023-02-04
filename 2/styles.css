@@ -39,6 +39,7 @@
 
 .user_card_profile > img {
   width: 150px;
+  min-width: 150px;
   margin: 0px auto;
 }
 
