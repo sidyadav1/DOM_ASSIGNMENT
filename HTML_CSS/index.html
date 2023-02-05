@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="flex justify-center bg-dark header fixed w-100">
+      <div class="flex flex-row align-center main-header container">
+        <img
+          class="mr-2 m-hidden"
+          src="assets/menu.png"
+          alt=""
+          width="20px"
+          onclick="toggleNavbar()"
+        />
+        <a href="#">
+          <img
+            class="header_logo"
+            src="https://gradeup-question-images.grdp.co/liveData/f/2022/7/bep_logo_light_72.svg"
+            alt=""
+            width="150px"
+            height="50px"
+          />
+        </a>
+      </div>
+    </header>
+    <div class="spacer"></div>
+    <nav
+      id="navbar"
+      class="nav flex justify-center hide-navbar bg-dark w-100 mt-0-m ph-2"
+    >
+      <div
+        class="flex flex-column align-center justify-between w-100 flex-row-m justify-center-m container"
+      >
+        <div class="flex flex-column align-center w-100 flex-row-m">
+          <div class="flex flex-row justify-center w-100 ph-1-33 w-fit-m">
+            <a href="#" class="no-underline white mr-3">Home</a>
+          </div>
+          <div class="flex flex-row justify-center w-100 ph-1-33 w-fit-m">
+            <a href="#" class="no-underline white mr-3">Practise</a>
+          </div>
+          <div class="flex flex-row justify-center w-100 ph-1-33 w-fit-m">
+            <a href="#" class="no-underline white mr-3">Study Materials</a>
+          </div>
+          <div class="flex flex-row justify-center w-100 ph-1-33 w-fit-m">
+            <a href="#" class="no-underline white mr-3">Test series</a>
+          </div>
+          <div class="flex flex-row justify-center w-100 ph-1-33 w-fit-m">
+            <a href="#" class="no-underline white mr-3">Courses</a>
+          </div>
+        </div>
+        <button
+          class="nav-auth-register white w-80 ph-2 mh-2 mb-4 w-fit-m m-0-m"
+        >
+          Register
+        </button>
+      </div>
+    </nav>
+    <main class="flex flex-column align-center">
+      <section class="flex flex-column container pv-3">
+        <h1 class="mb-3 text-center">Start your preparation</h1>
+        <div class="flex flex-row justify-center flex-wrap w-100 ph-2">
+          <div
+            class="flex flex-column align-start bg-dark mh-4 ph-2 pv-2 br3 w-100 mb-3 mh-2 features"
+          >
+            <span class="f5 white mb-2">Online Classroom Program</span>
+            <span class="f6 mb-4 white"
+              >Live & Recorder Courses by Top Faculty</span
+            >
+            <a class="f5 secondary no-underline" href="#">Explore Now</a>
+          </div>
+          <div
+            class="flex flex-column align-start bg-dark mh-4 ph-2 pv-2 br3 w-100 mb-3 mh-2 features"
+          >
+            <span class="f5 white mb-2">Online Classroom Program</span>
+            <span class="f6 mb-4 white"
+              >Live & Recorder Courses by Top Faculty</span
+            >
+            <a class="f5 secondary no-underline" href="#">Explore Now</a>
+          </div>
+          <div
+            class="flex flex-column align-start bg-dark mh-4 ph-2 pv-2 br3 w-100 mb-3 mh-2 features"
+          >
+            <span class="f5 white mb-2">Online Classroom Program</span>
+            <span class="f6 mb-4 white"
+              >Live & Recorder Courses by Top Faculty</span
+            >
+            <a class="f5 secondary no-underline" href="#">Explore Now</a>
+          </div>
+          <div
+            class="flex flex-column align-start bg-dark mh-4 ph-2 pv-2 br3 w-100 mb-3 mh-2 features"
+          >
+            <span class="f5 white mb-2">Online Classroom Program</span>
+            <span class="f6 mb-4 white"
+              >Live & Recorder Courses by Top Faculty</span
+            >
+            <a class="f5 secondary no-underline" href="#">Explore Now</a>
+          </div>
+          <div
+            class="flex flex-column align-start bg-dark mh-4 ph-2 pv-2 br3 w-100 mb-3 mh-2 features"
+          >
+            <span class="f5 white mb-2">Online Classroom Program</span>
+            <span class="f6 mb-4 white"
+              >Live & Recorder Courses by Top Faculty</span
+            >
+            <a class="f5 secondary no-underline" href="#">Explore Now</a>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-column mb-4 pv-4 bg-dark-primary w-100">
+        <h3 class="mb-2 text-center white">Our Numbers Speak For Us</h3>
+        <div class="flex flex-column w-100 ph-2">
+          <span class="f2 secondary text-center mb-2">3Cr+</span>
+          <span class="f4 text-center white mb-3">Registered Students</span>
+        </div>
+        <div class="flex justify-around">
+          <div class="flex flex-column align-center w-30 bg-white br3 pa2">
+            <span class="f4 mb-2 text-center bold">3.44 Cr+</span>
+            <span class="f7 text-center bold">Video Classes Attended</span>
+          </div>
+          <div class="flex flex-column align-center w-30 bg-white br3 pa2">
+            <span class="f4 mb-2 text-center bold">3.44 Cr+</span>
+            <span class="f7 text-center bold">Video Classes Attended</span>
+          </div>
+          <div class="flex flex-column align-center w-30 bg-white br3 pa2">
+            <span class="f4 mb-2 text-center bold">3.44 Cr+</span>
+            <span class="f7 text-center bold">Video Classes Attended</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer flex justify-center flex-wrap bg-darkest-primary">
+      <div class="flex flex-column w-40 pv-3 w-20-m">
+        <h3 class="mb-3 white">OUR APPS</h3>
+        <span class="f7 white mb-4"
+          >Byjus's Exam Prep: The Exam Prepration App</span
+        >
+        <img src="assets/play_store.png" alt="" class="w-80" />
+      </div>
+      <div class="flex flex-column w-40 pv-3 w-20-m">
+        <h3 class="mb-3 white">STATE EXAMS</h3>
+        <ul class="mb-3 list-style-none">
+          <li class="white f7 mb-3">KPSC</li>
+          <li class="white f7 mb-3">RPSC</li>
+          <li class="white f7 mb-3">UPPSC</li>
+          <li class="white f7 mb-3">MPSC</li>
+          <li class="white f7 mb-3">KPSC</li>
+          <li class="white f7 mb-3">RPSC</li>
+          <li class="white f7 mb-3">UPPSC</li>
+          <li class="white f7 mb-3">MPSC</li>
+        </ul>
+      </div>
+      <div class="flex flex-column w-40 pv-3 w-20-m">
+        <h3 class="mb-3 white">STATE EXAMS</h3>
+        <ul class="mb-3 list-style-none">
+          <li class="white f7 mb-3">KPSC</li>
+          <li class="white f7 mb-3">RPSC</li>
+          <li class="white f7 mb-3">UPPSC</li>
+          <li class="white f7 mb-3">MPSC</li>
+          <li class="white f7 mb-3">KPSC</li>
+          <li class="white f7 mb-3">RPSC</li>
+          <li class="white f7 mb-3">UPPSC</li>
+          <li class="white f7 mb-3">MPSC</li>
+        </ul>
+      </div>
+      <div class="flex flex-column w-40 pv-3 w-20-m">
+        <h3 class="mb-3 white">STATE EXAMS</h3>
+        <ul class="mb-3 list-style-none">
+          <li class="white f7 mb-3">KPSC</li>
+          <li class="white f7 mb-3">RPSC</li>
+          <li class="white f7 mb-3">UPPSC</li>
+          <li class="white f7 mb-3">MPSC</li>
+          <li class="white f7 mb-3">KPSC</li>
+          <li class="white f7 mb-3">RPSC</li>
+          <li class="white f7 mb-3">UPPSC</li>
+          <li class="white f7 mb-3">MPSC</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- <nav class="navbar flex">
+  <div class="navbar_content">
+    <ul class="navbar_items">
+      <li class="navbar_item"><a class="navbar_link" href="#">Home</a></li>
+      <li class="navbar_item">
+        <a class="navbar_link" href="#">Practise</a>
+      </li>
+      <li class="navbar_item">
+        <a class="navbar_link" href="#">Study Material</a>
+      </li>
+      <li class="navbar_item">
+        <a class="navbar_link" href="#">Test Series</a>
+      </li>
+    </ul>
+    <button class="navbar_auth_register">Register</button>
+  </div>
+</nav>
+<div class="header_space"></div>
+
+<footer class="flex flex-row justify-center footer">
+  <div class="flex flex-row justify-center footer-_content">
+    <div class="flex flex-column align-center w-15-l">
+      <span class="f4">OUR APPS</span>
+      <span class="f6">BYJU'S Exam Prep: The Exam Preparation App</span>
+    </div>
+  </div>
+</footer> -->
+
+<!-- <main class="main flex flex-column align-center">
+  <section class="main_section flex flex-column justify-center">
+    <h3 class="text-center">Why Choose BYJU'S Exam Prep?</h3>
+    <div class="flex justify-space-between">
+      <div>
+        <img src="assets/choice_icon.avif" alt="" />
+      </div>
+    </div>
+  </section>
+  <section class="main_section flex flex-column justify-center">
+    <h3 class="text-center">Start your preparation</h3>
+    <div
+      class="main_section_content flex flex-row justify-center flex-wrap"
+    >
+      <div class="item bg-813588">
+        <div class="items_head flex flex-column">
+          <span class="items_heading1">Online Classroom Program</span>
+          <span class="items_heading2">
+            Live & Recorded courses by Top Faculty
+          </span>
+        </div>
+        <a href="#" class="items_link">
+          <span>Explore Courses</span>
+          <span>&#10095;</span>
+        </a>
+      </div>
+      <div class="item bg-813588">
+        <div class="items_head flex flex-column">
+          <span class="items_heading1">Online Classroom Program</span>
+          <span class="items_heading2">
+            Live & Recorded courses by Top Faculty
+          </span>
+        </div>
+        <a href="#" class="items_link">
+          <span>Explore Courses</span>
+          <span>&#10095;</span>
+        </a>
+      </div>
+      <div class="item bg-813588">
+        <div class="items_head flex flex-column">
+          <span class="items_heading1">Online Classroom Program</span>
+          <span class="items_heading2">
+            Live & Recorded courses by Top Faculty
+          </span>
+        </div>
+        <a href="#" class="items_link">
+          <span>Explore Courses</span>
+          <span>&#10095;</span>
+        </a>
+      </div>
+      <div class="item bg-813588">
+        <div class="items_head flex flex-column">
+          <span class="items_heading1">Online Classroom Program</span>
+          <span class="items_heading2">
+            Live & Recorded courses by Top Faculty
+          </span>
+        </div>
+        <a href="#" class="items_link">
+          <span>Explore Courses</span>
+          <span>&#10095;</span>
+        </a>
+      </div>
+      <div class="item bg-813588">
+        <div class="items_head flex flex-column">
+          <span class="items_heading1">Online Classroom Program</span>
+          <span class="items_heading2">
+            Live & Recorded courses by Top Faculty
+          </span>
+        </div>
+        <a href="#" class="items_link">
+          <span>Explore Courses</span>
+          <span>&#10095;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main> -->
